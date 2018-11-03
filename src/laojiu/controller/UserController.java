@@ -21,9 +21,10 @@ public class UserController {
     public String loginIn(User user,String name,String password,HttpSession session){        //登陆
         System.out.println(name);
         System.out.println(password);
-        System.out.println("nihao");
+        System.out.println("命运");
         System.out.println(user);
         User user1 = userService.loginIn(user);
+
         System.out.println(user1);
         if(user1 != null){
             session.setAttribute("user",user1);
