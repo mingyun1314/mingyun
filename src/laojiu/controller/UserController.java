@@ -15,7 +15,6 @@ public class UserController {
     private UserService userService;
     @RequestMapping("index11")
     public String homePage(){        //初始登陆页面
-        System.out.println("nih");
         return "login";
     }
     @RequestMapping("loginIn")
