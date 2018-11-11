@@ -4,4 +4,5 @@ import laojiu.entity.User;
 
 public interface UserMapper {
     User loginIn(User user);
+    System.out.println("命运");
 }
